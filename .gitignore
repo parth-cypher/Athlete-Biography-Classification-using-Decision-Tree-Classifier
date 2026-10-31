@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# dataset, trained model and generated reports
+data/*.csv
+data/*.part
+data/*.zip
+models/*.joblib
+reports/*
+!reports/.gitkeep
